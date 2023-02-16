@@ -1,0 +1,46 @@
+.body {
+  background-color: #22c55e;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #22c55e;
+}
+
+.wrapper {
+  background-color: #22c55e;
+}
+
+.wrapperList {
+  background-color: #22c55e;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.wrapperList h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.wrapperList img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+.button {
+  text-decoration: none;
+  border: none;
+  color: black;
+  display: inline-block;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: aliceblue;
+  padding: 0.5rem 2.5rem;
+  border-radius: 9999px;
+}
